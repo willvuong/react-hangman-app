@@ -1,0 +1,3 @@
+- used a useEffect everytime the correctLetters, wrongLetters, playable useState was updated in order to update the correct/wrong letters of the selected word
+- passed in useStates as props in order to update what was being displayed on the screen, ie: wrongLetters to Figure component to create another part body part of the hangman everytime 
+another wrongLetter was being entered
